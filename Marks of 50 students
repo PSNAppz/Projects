@@ -1,0 +1,27 @@
+//Array - marks of 50 students
+//Author:P.S.Narayanan
+//Date:11/10/2014
+
+
+#include<stdio.h>
+int main()
+{
+	int ab,a[50],i,avg=0,best=0,worst=600;
+	for(i=1;i<=50;i++)               //loop to input the values in the array
+   {
+    	printf("Enter the mark of student %d(in 600)",i);
+   	scanf("%d",&a[i]);
+      if(a[i]>600)                 //if the user enters a score above 600 which is invalid it will terminate the program
+      {
+      	printf("Error...\n");
+         break;
+      }
+      if(a[i]>best)                //best score
+      best=a[i];
+      if(a[i]<worst)               //worst score
+      worst=a[i];
+      avg+=a[i]/50;                //average marks of 50 students
+   }
+   printf("Average score is:%d\nBest score is:%d\nWorst score is:%d",avg,best,worst);
+   return 0;
+}
