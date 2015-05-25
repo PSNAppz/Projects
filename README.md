@@ -1,5 +1,8 @@
-Projects              <img>https://travis-ci.org/AmritaS1BCA/Projects.svg?branch=master</img>
+Projects              
 ========
+
+
+
 
 Projects for S1 BCA Amrita 2k14
 More coming soon
