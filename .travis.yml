@@ -2,6 +2,6 @@ language : c
 compiler : gcc
 
 before_script:
- - chmod +x Menu_driven_Program.c
+ - chmod +x Menu_driven_Program
  
 script : ./Menu_driven_Program.c
