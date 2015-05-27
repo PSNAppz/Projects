@@ -2,6 +2,6 @@ language : c
 compiler : gcc
 
 before_script:
- - chmod +x Menu_driven_Program
+ - chmod +x arraysort
  
-script : ./Menu_driven_Program.c
+script : ./arraysort.c
