@@ -2,6 +2,7 @@ language : c
 compiler : gcc
 
 before_script:
+
  - chmod +x arraysort.c
  
 script : ./arraysort.c
