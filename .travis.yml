@@ -3,6 +3,6 @@ compiler : gcc
 
 before_script:
 
- - chmod a+x arraysort.c
+ - chmod a+x matrix.c
  
-script : ./arraysort.c
+script : ./matrix.c
