@@ -1,13 +1,9 @@
-//5x5 array
-//Author:P.S.Narayanan
-//Date:8/11/14
-
 #include<stdio.h>
 int main()
 {
 	int a[5][5],i,j,k,even=0,odd=0,big=0,small=0,row,column;
 	printf("Enter the array elements");
-//-------Array inputting & even or odd totals---------
+
 	for(i=0;i<5;i++)
 	{
 		for(j=0;j<5;j++)
@@ -23,7 +19,7 @@ int main()
 			}
 		}
 	}
-//--------Biggest and smallest------------
+
 	for(i=0;i<5;i++)
 	{
 		for(j=0;j<5;j++)
@@ -39,7 +35,7 @@ int main()
 			}
 		}
 	}
-//--------Sum of each row and column--------
+
 
 	for(i=0;i<5;i++)
 	{
