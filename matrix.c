@@ -11,11 +11,11 @@ int main()
 			scanf("%d",&a[i][j]);
 			if(a[i][j]%2==0)
 			{
-				even++; //total even nos
+				even++; 
 			}
 			else
 			{
-				odd++; //total odd nos
+				odd++; 
 			}
 		}
 	}
@@ -26,12 +26,12 @@ int main()
 		{
 			if(a[i][j]>big)
 			{
-				big=a[i][j]; // biggest number
+				big=a[i][j]; 
 				
 			}
 			if(a[i][j]<small)
 			{
-				small=a[i][j]; // smallest number
+				small=a[i][j]; 
 			}
 		}
 	}
