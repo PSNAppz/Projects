@@ -1,8 +1,3 @@
-//Array - Menu Driven Program for sorting
-//Author:P.S.Narayanan
-//Date:13/10/2014
-
-
 #include<stdio.h>
 void sortasc(void);
 void sortdesc(void);
