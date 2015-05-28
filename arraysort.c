@@ -16,7 +16,7 @@ int main()
    return 0;
 }
 
-void sortasc()            //function to print in Ascending order
+void sortasc()          
 {
 	int i,j,temp,a[10];
 	printf("Enter the array(of 10)to sort in descending order\n");
@@ -35,14 +35,14 @@ void sortasc()            //function to print in Ascending order
        }
     }
    printf ("\n Ascending order: ");
-	for (i=0 ; i<10 ; i++)           //For loop for printing the array
+	for (i=0 ; i<10 ; i++)           
 	{
 		printf (" %d", a[i]);
 	}
 
 }
 
-void sortdesc()          //function to print in Descending order
+void sortdesc()        
 {
 	int i,j,temp,a[10];
 	printf("Enter the array(of 10)to sort in descending order\n");
@@ -62,7 +62,7 @@ void sortdesc()          //function to print in Descending order
 
     }
    printf ("\n Descending order: ");
-	for (i=10 ; i>0 ; i--)          //Reverse printing for loop
+	for (i=10 ; i>0 ; i--)         
 	{
 		printf (" %d", a[i-1]);
 	}
